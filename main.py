@@ -12,7 +12,7 @@ with open('links.txt', 'r') as f:
         # Удаляем символ новой строки
         link = link.strip() + email
         try:
-        	response = requests.get(link, timeout=1)
+        	response = requests.get(link, timeout=7)
         	print(f"Отправил {i+1} запрос")
         except:
         	print("Error")
