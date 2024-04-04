@@ -4,7 +4,7 @@ from urllib.request import urlopen
 # Запрашиваем у пользователя почту
 #email = input("Введите вашу электронную почту: ")
 
-email = "tdgr4vkfio@waterisgone.com"
+email = "8k10beh38h@waterisgone.com"
 #Открываем файл с ссылками
 with open('links.txt', 'r') as f:
     # Читаем все ссылки из файла
